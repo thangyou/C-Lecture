@@ -6,8 +6,8 @@
 void main() {
     int max, min, a, b;
 
-    printf("두 개의 정수를 입력하세요 : ");
-    scanf("%d %d", &a, &b);
+    printf("두 개의 정수를 입력하세요 : "); 
+    scanf("%d %d", &a, &b); // 7 10
 
     if (a > b) {
         max = a;
@@ -17,5 +17,5 @@ void main() {
         min = a;
     }
     printf("큰 수 : %d, 작은 수 : %d", max, min);
-
+    // 큰 수 : 10, 작은 수 : 7
 }

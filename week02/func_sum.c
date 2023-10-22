@@ -9,4 +9,5 @@ int main(void) {
     int s;
     s = Sum(3, 5);
     printf("두 수의 합 : %d\n", s);
+    // 두 수의 합 : 8
 }

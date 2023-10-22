@@ -7,6 +7,13 @@ int main(void) {
     printf("I lika\be C!\n");
     printf("Cow\rW\a\n");
 
+    /*
+    Hi~~~~
+    My	 friend 
+    I like C!
+    Wow
+    */
+
     printf("=====================\n");
 
     // 문자, 정수, 실수 출력
@@ -16,5 +23,13 @@ int main(void) {
     printf("%c \n", 'a');       // 문자 출력
     printf("%s \n", "hi");      // 문자열 출력
     
+    /*
+    10 
+    3.140000 
+    3.15 
+    a 
+    hi 
+    */
+
     return 0;   
 }

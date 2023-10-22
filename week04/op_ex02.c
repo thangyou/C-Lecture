@@ -8,8 +8,8 @@ int main(void) {
     c++;
     d--;
 
-    printf("a:%d, b:%d, c:%d, d:%d\n", a,b,c,d);
-
+    printf("a:%d, b:%d, c:%d, d:%d\n", a, b, c, d);
+    // a:11, b:9, c:11, d:9
 
     return 0;
 }

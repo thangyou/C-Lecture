@@ -10,9 +10,16 @@ int main(void) {
     double weight, height, BMI;
 
     printf("체중과 키 입력 : ");
-    scanf("%d %d", &weight, &height);
+    scanf("%lf %lf", &weight, &height);
+    height = height / 100.0;
     BMI = weight / (height * height);
+    printf("BMI : %.1lf\n", BMI);
     (BMI >= 20.0 && BMI < 25.0) ? printf("표준\n") : printf("체중관리 필요\n");
 
+    /*
+    체중과 키 입력 : 45 152.2
+    BMI : 19.4
+    체중관리 필요
+    */
     return 0;
 }

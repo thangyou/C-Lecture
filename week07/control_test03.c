@@ -6,8 +6,8 @@
 void main() {
     int a, b, c, max;
 
-    printf("세 개의 정수를 입력하세요 : ");
-    scanf("%d %d %d", &a, &b, &c);
+    printf("세 개의 정수를 입력하세요 : "); 
+    scanf("%d %d %d", &a, &b, &c); // 125 214 178
 
     if (a > b) {
         if (a > b) max = a;
@@ -19,5 +19,6 @@ void main() {
     }
 
     printf("가장 큰 수 : %d", max);
+    // 가장 큰 수 : 214
 
 }

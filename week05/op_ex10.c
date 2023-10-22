@@ -9,5 +9,14 @@ void main() {
     printf("~a = %d\n", ~a); // 모든 비트 반전 - 11110101
     printf("a << 1 = %d\n", a << 1);
     printf("a >> 2 = %d\n", a >> 2);
-
+    
+    /*
+    a & b = 8
+    a | b = 14
+    a ^ b = 6
+    ~a = -11
+    a << 1 = 20
+    a >> 2 = 2
+    */
+   return;
 }

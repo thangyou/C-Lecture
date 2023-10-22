@@ -6,10 +6,10 @@
     컵라면은 1500원, 초코바는 950원임.
 */
 int main(void) {
-    int cupramen = 1500, chocoba = 950, change, total, rest;
+    int cupramen = 1500, chocoba = 950, change, total;
     int m500, m100, m50;
 
-    // cupramen *= 2;              // 3000
+    cupramen *= 2;              // 3000
     chocoba *= 3;               // 2850
     total = cupramen + chocoba; // 5850
     change = 6000 - total;      // 150
@@ -17,12 +17,30 @@ int main(void) {
     m100 = change % 500 / 100;
     m50 = change % 500 % 100 / 50;
 
+    /*
+        int rest;
+        m500 = change / 500;
+        rest = change % 500;
+        m100 = rest / 100;
+        rest = rest % 100;
+        m50 = rest / 50;
+        rest = rest % 50;
+    */
+
 
     printf("컵라면 전체 금액 : %d\n", cupramen);
     printf("초코바 전체 금액 : %d\n", chocoba);
     printf("거스름돈 : %d\n", change);
     printf("거스름돈 동전의 최소 개수 ... \n");
     printf("500원 %d개, 100원 %d개, 50원 %d개\n", m500, m100, m50);
+
+    /*
+    컵라면 전체 금액 : 1500
+    초코바 전체 금액 : 2850
+    거스름돈 : 1650
+    거스름돈 동전의 최소 개수 ... 
+    500원 3개, 100원 1개, 50원 1개
+    */
 
 
     return 0;

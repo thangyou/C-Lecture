@@ -9,7 +9,7 @@ void main() {
     int num1, num2, result = 0;
     char op;
 
-    printf("계산식 입력 : ");
+    printf("계산식 입력 : "); // 12*24
     scanf("%d %c %d",&num1, &op, &num2);
 
     switch (op)
@@ -31,7 +31,7 @@ void main() {
     }
     if (op=='+' || op=='-' || op=='*' || op=='/') 
         printf("%d %c %d = %d", num1, op, num2, result); 
-
+        // 12 * 24 = 288
     
     printf("");
 }

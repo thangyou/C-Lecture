@@ -10,8 +10,7 @@ int main(void) {
    int res5 = data1 % data2;
 
    printf("%d, %d, %d, %d, %d\n", res1, res2, res3, res4, res5);
-
-
+   // 8, 2, 15, 1, 2
 
     return 0;
 }

@@ -6,7 +6,7 @@
 void main() {
     int num, sum = 0;
 
-    printf("양의 정수 n을 입력하세요 : ");
+    printf("양의 정수 n을 입력하세요 : "); // 16
     scanf("%d", &num);
 
     for (int i = 0; i <= num; i=i+2) 
@@ -23,4 +23,5 @@ void main() {
     */
 
     printf("1에서 %d까지 짝수의 합은 %d입니다.", num, sum);
+    // 1에서 16까지 짝수의 합은 72입니다.
 }

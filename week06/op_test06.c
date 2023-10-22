@@ -11,6 +11,7 @@ int main(void) {
     seatRate = (double) audience / (double) seat * 100.0;
 
     printf("입장률 : %.1lf%%\n", seatRate); // % -> %%
+    // 입장률 : 92.9%
 
     return 0;
 }

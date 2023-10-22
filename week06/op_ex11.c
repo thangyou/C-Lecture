@@ -12,4 +12,13 @@ void main() {
     printf("res = %d\n", res); // 1
     res = a % 3 == 0;
     printf("res = %d\n", res); // 0
+
+    /*
+    res = 4
+    res = 33
+    res = 1
+    res = 0
+    */
+
+    return;
 }

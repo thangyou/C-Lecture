@@ -10,4 +10,5 @@ void main() {
     else if (score >= 60) grade = 'D';
     else grade = 'F';
     printf("점수는 %d이고 등급은 %c입니다.\n", score, grade);
+    // 점수는 92이고 등급은 A입니다.
 }

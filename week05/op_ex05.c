@@ -7,5 +7,5 @@ void main() {
     int res2 = (a > 10) && (a < 20); // 0
     int res3 = !(a >= 10);           // 1
 
-    printf("%d %d %d \n", res1, res2, res3);
+    printf("%d %d %d \n", res1, res2, res3); // 1 0 1 
 }

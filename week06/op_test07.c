@@ -16,6 +16,7 @@ int main(void) {
     sec = (int)time; // 36
 
     printf("3.76 시간은 %d시간 %d분 %d초입니다.\n", hour, min, sec);
+    // 3.76 시간은 3시간 45분 35초입니다.
 
     return 0;
 }

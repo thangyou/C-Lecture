@@ -9,7 +9,7 @@ void main() {
     case 10:
     case 9:
         grade = 'A';
-        break;
+        break; // 현재 수행되는 case문의 작업을 중단
     case 8:
         grade = 'B';
         break;
@@ -19,9 +19,10 @@ void main() {
     case 6:
         grade = 'D';
         break;
-    default:
+    default: // case에 해당하는 상수가 없는 경우 수행
         grade = 'F';
         break;
     }
     printf("당신의 점수는 %d점, 등급은 %c 입니다.\n", score, grade);
+    // 당신의 점수는 86점, 등급은 B 입니다.
 }

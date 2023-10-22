@@ -11,10 +11,10 @@ int main(void) {
     int distance, speed, rest;
     double sec;
 
-    // printf("거리와 속력을 입력하세요 : ");
-    // scanf("%d %d", &distance, &speed);
-    distance = 435;
-    speed = 80;
+    printf("거리와 속력을 입력하세요 : ");
+    scanf("%d %d", &distance, &speed);
+    // distance = 435;
+    // speed = 80;
     
     hour = distance / speed;
     rest = distance % speed;
@@ -22,7 +22,8 @@ int main(void) {
     rest = (rest * 60) % speed;
     sec = (rest * 60) / speed;
 
-    printf("소요 시간은 %d시간 %d분 %.3lf초입니다.\n", hour, min, sec);
+    printf("소요 시간은 %d시간 %d분 %.2lf초입니다.\n", hour, min, sec);
+    // 소요 시간은 5시간 26분 15.00초입니다.
 
     return 0;
 }
